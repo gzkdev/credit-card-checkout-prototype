@@ -18,4 +18,4 @@ If you'd like to report any bug, make additions, or provide some valuable feedba
 
 ## Support
 
-If you have something nice to say to me or have a job for me, contact me via [mailto:ezihegodswill01@gmail.com](My email)
+If you have something nice to say to me or have a job for me, contact me via [My Email](mailto:ezihegodswill01@gmail.com)
