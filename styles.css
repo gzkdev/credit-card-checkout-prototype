@@ -38,7 +38,7 @@ body {
 .card {
   position: relative;
   width: 90%;
-  max-width: 480px;
+  max-width: 440px;
   /* aspect-ratio: 16/9; */
   min-height: max(30vh, 260px);
   perspective: 1000px;
