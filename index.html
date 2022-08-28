@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit Card Checkout Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="card-container">
+        <div class="card" data-rotate="false">
+          <div class="card-face anterior">
+            <div class="card__icon"></div>
+            <div class="card-details">
+              <div class="card-number">
+                <span class="set-one">0000</span>
+                <span class="set-two">0000</span>
+                <span class="set-three">0000</span>
+                <span class="set-four">0000</span>
+              </div>
+              <div class="card-details-footer">
+                <span class="card-name">JOHN ALBRIGHT</span>
+                <div class="card-date">00/00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-face posterior">
+            <div class="card-divider"></div>
+            <div class="card-cvc">000</div>
+          </div>
+        </div>
+      </div>
+      <div class="form-container">
+        <div class="form">
+          <div class="form-box">
+            <label for="name">CARDHOLDER NAME</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="off"
+              data-swipe-front
+              placeholder="e.g John Albright"
+            />
+          </div>
+          <div class="form-box">
+            <label for="number">CARDHOLDER NUMBER</label>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              autocomplete="off"
+              data-swipe-front
+              placeholder="e.g 0240445613987710"
+              maxlength="16"
+            />
+          </div>
+          <div class="form-box-grid">
+            <div class="form-box">
+              <label for="date">EXP. DATE (MM/YY)</label>
+              <input
+                type="month"
+                name="date"
+                id="date"
+                autocomplete="off"
+                data-swipe-front
+              />
+            </div>
+            <div class="form-box">
+              <label for="cvc">CVC</label>
+              <input
+                type="number"
+                name="cvc"
+                id="cvc"
+                autocomplete="off"
+                maxlength="3"
+              />
+            </div>
+          </div>
+          <button class="submit-button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
